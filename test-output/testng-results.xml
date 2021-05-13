@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22829" started-at="2021-05-08T00:26:30 IST" finished-at="2021-05-08T00:26:53 IST">
+    <groups>
+      <group name="Webelement">
+        <method signature="VerboseTest.Testcase3()[pri:4, instance:VerboseTest@2781e022]" name="Testcase3" class="VerboseTest"/>
+        <method signature="VerboseTest.Testcase4()[pri:3, instance:VerboseTest@2781e022]" name="Testcase4" class="VerboseTest"/>
+        <method signature="VerboseTest.Testcase5()[pri:5, instance:VerboseTest@2781e022]" name="Testcase5" class="VerboseTest"/>
+      </group> <!-- Webelement -->
+      <group name="Title">
+        <method signature="VerboseTest.Testcase2()[pri:2, instance:VerboseTest@2781e022]" name="Testcase2" class="VerboseTest"/>
+        <method signature="VerboseTest.Testcase1()[pri:1, instance:VerboseTest@2781e022]" name="Testcase1" class="VerboseTest"/>
+      </group> <!-- Title -->
+    </groups>
+    <test name="Default test" duration-ms="22829" started-at="2021-05-08T00:26:30 IST" finished-at="2021-05-08T00:26:53 IST">
+      <class name="VerboseTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:VerboseTest@2781e022]" name="Setup" is-config="true" duration-ms="6585" started-at="2021-05-08T00:26:31 IST" finished-at="2021-05-08T00:26:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Testcase1()[pri:1, instance:VerboseTest@2781e022]" name="Testcase1" duration-ms="54" started-at="2021-05-08T00:26:37 IST" finished-at="2021-05-08T00:26:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:VerboseTest@2781e022]" name="teardown" is-config="true" duration-ms="144" started-at="2021-05-08T00:26:37 IST" finished-at="2021-05-08T00:26:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:VerboseTest@2781e022]" name="Setup" is-config="true" duration-ms="5034" started-at="2021-05-08T00:26:37 IST" finished-at="2021-05-08T00:26:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Testcase2()[pri:2, instance:VerboseTest@2781e022]" name="Testcase2" duration-ms="122" started-at="2021-05-08T00:26:42 IST" finished-at="2021-05-08T00:26:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:VerboseTest@2781e022]" name="teardown" is-config="true" duration-ms="99" started-at="2021-05-08T00:26:42 IST" finished-at="2021-05-08T00:26:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:VerboseTest@2781e022]" name="Setup" is-config="true" duration-ms="4927" started-at="2021-05-08T00:26:43 IST" finished-at="2021-05-08T00:26:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="Testcase4()[pri:3, instance:VerboseTest@2781e022]" name="Testcase4" duration-ms="103" started-at="2021-05-08T00:26:47 IST" finished-at="2021-05-08T00:26:48 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#ow333"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zebas-MacBook-Air.local', ip: 'fe80:0:0:0:1472:476d:b5a7:d566%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/ph/v_kbllhd60n...}, goog:chromeOptions: {debuggerAddress: localhost:64663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 24bf3d77e1e3553079e07b5e33a094e0
+*** Element info: {Using=id, value=ow333}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ow333"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zebas-MacBook-Air.local', ip: 'fe80:0:0:0:1472:476d:b5a7:d566%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/ph/v_kbllhd60n...}, goog:chromeOptions: {debuggerAddress: localhost:64663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 24bf3d77e1e3553079e07b5e33a094e0
+*** Element info: {Using=id, value=ow333}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at VerboseTest.Testcase4(VerboseTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase4 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:VerboseTest@2781e022]" name="teardown" is-config="true" duration-ms="168" started-at="2021-05-08T00:26:48 IST" finished-at="2021-05-08T00:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:VerboseTest@2781e022]" name="Setup" is-config="true" duration-ms="5357" started-at="2021-05-08T00:26:48 IST" finished-at="2021-05-08T00:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Testcase3()[pri:4, instance:VerboseTest@2781e022]" name="Testcase3" duration-ms="62" started-at="2021-05-08T00:26:53 IST" finished-at="2021-05-08T00:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase3 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:VerboseTest@2781e022]" name="teardown" is-config="true" duration-ms="93" started-at="2021-05-08T00:26:53 IST" finished-at="2021-05-08T00:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="Testcase5()[pri:5, instance:VerboseTest@2781e022]" name="Testcase5" duration-ms="0" started-at="2021-05-08T00:26:53 IST" depends-on-methods="VerboseTest.Testcase4" finished-at="2021-05-08T00:26:53 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerboseTest.Testcase5()[pri:5, instance:VerboseTest@2781e022] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerboseTest.Testcase5()[pri:5, instance:VerboseTest@2781e022] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase5 -->
+      </class> <!-- VerboseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
